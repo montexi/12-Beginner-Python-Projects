@@ -1,4 +1,7 @@
 import random
+# The computer generates a random number between 1 and 10
+# If the user's guess it too low, it returns "Too low"
+# If the user's guess it too high, it returns "Too high"
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0 
@@ -14,7 +17,7 @@ def guess(x):
 
        
        
-       
+
 def computer_guess(x):
     low = 1
     high = x
